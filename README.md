@@ -1,7 +1,7 @@
 
 # model-query
 
-Advanced `Model.all()` queries for [component/model](https://github.com/component/model).
+Simple `Model.all()` queries for [component/model](https://github.com/component/model).
 
 ## Installation
 
