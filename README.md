@@ -30,11 +30,11 @@ If a callback is passed it has the same functionality as `Model.all()`. If not i
 
 ### #end(callback)
 
-The results will be passed into a `[component/collection](https://component/collection).
+The results will be passed into a [component/collection](https://component/collection).
 
 ### .query(params[, callback])
 
-Pass a parameters object that you would normally pass to `superagent.query()`
+Pass a parameters object that you would normally pass to `superagent.query()`.
 
 ### .limit(limit[, callback])
 

@@ -4,15 +4,12 @@
  */
 
 var Collection = require('collection');
-var debug = require('debug')('model-query');
 
 /**
  *  Plugin.
  */
 
 module.exports = function(Model) {
-  debug('plugin for %s', Model.modelName);
-
   /**
    * Create `get` request
    */
