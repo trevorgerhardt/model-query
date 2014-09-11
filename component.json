@@ -2,10 +2,11 @@
   "name": "model-query",
   "repo": "trevorgerhardt/model-query",
   "description": "Simple `Model#all()` queries for component/model",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [ "model", "query" ],
   "dependencies": {
-    "component/collection": "*"
+    "component/collection": "*",
+    "component/once": "*"
   },
   "license": "MIT",
   "main": "index.js",

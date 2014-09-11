@@ -1,9 +1,5 @@
-
-/**
- * Dependencies
- */
-
 var Collection = require('collection');
+var once = require('once');
 
 /**
  *  Plugin.
@@ -21,6 +17,9 @@ module.exports = function(Model) {
 
     var end = req.end;
     req.end = function(fn) {
+      // Call only once
+      fn = once(fn);
+
       end.call(req, function(err, res) {
         if (err || !res.ok) {
           fn(err || new Error(res.text), null, res);
